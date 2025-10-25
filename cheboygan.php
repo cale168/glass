@@ -1,0 +1,60 @@
+<?php include("header.html");?>
+
+<table width="850" border="0">
+<tbody>
+	<tr>
+		<td>
+		<p align="center">
+			<span style="color: #ffffff; font-family: Forte; font-size: xx-large;">CHEBOYGAN RUSTY STUD 150&nbsp;</span>
+		</p>
+		<p align="center">
+			<span style="font-family: Footlight MT Light; font-size: x-large;">
+			<span style="color: #ffffff;">Contact Bruce at 231-625-2567<br />or email 
+			<a href="mailto:brandtssportctr@att.net">
+				<span style="color: #800000;">brandtssportctr@att.net</span>
+			</a><br />or<br />Call Bud at 231-627-6095<br />or email 
+			<a href="mailto:westcottwarren@sbcglobal.net">
+				<span style="color: #800000;">westcottwarren@sbcglobal.net</span>
+			</a>
+			</span>
+			</span>
+			<span style="font-family: Footlight MT Light;"><br />&nbsp;</span>
+		</p>
+			<div align="center">
+			<p>
+				<a href="RustyStud2014.pdf"><span style="color: #ffffff; font-size: xx-large;">2014 Flyer</span></a>
+			</p>
+				<div align="center">
+					<iframe width="500" height="400" frameborder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=45.632533~-84.476520&lvl=15&w=500&h=400&sty=r&typ=d&pp=~~45.633808~-84.476069&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS"></iframe>
+					<div style="margin: 12px 0 0 0;">
+					<a target="_blank" href="http://www.bing.com/maps/?cp=45.632533~-84.476520&sty=r&lvl=15&where1=45.633808,-84.476069&mm_embed=map">View Larger Map
+					</a>&nbsp; |&nbsp; 
+					<a target="_blank" href="http://www.bing.com/maps/?cp=45.632533~-84.476520&sty=r&lvl=15&rtp=~pos.45.633808_-84.476069__&mm_embed=dir">Get Directions
+					</a>&nbsp; |&nbsp; 
+					<a target="_blank" href="http://www.bing.com/maps/?cp=rm52427yt8vb&sty=b&lvl=18&where1=45.633808,-84.476069&mm_embed=be">
+					View Bird's Eye
+					</a>
+					</div>
+				</div>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<span style="font-size: 9px; text-decoration: none; color: #ffffff;">Counter provided by 
+				<a target="_blank" href="http://www.website-hit-counters.com" title="www.website-hit-counters.com">website-hit-counters.com</a> 
+			</span>
+			<p>
+				<a target="_blank" href="http://www.website-hit-counters.com/fancy-hit-counters.html">
+				<img src="http://www.website-hit-counters.com/cgi-bin/image.pl?URL=177789-4895" alt="free hit counters" border="0" />
+				</a>
+				<span style="font-size: 9px; text-decoration: none;">.</span>
+			</p>
+		</td>
+	</tr>
+</tbody>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<?php include("header.html");?>
+
+<table border="0" width="900">
+	<tr>
+		<td colspan="2" align="center">
+			<font face="Algerian" size="7" color="#FFFFFF">
+				Drummond Island 1 Lunger<br>
+			</font>
+		</td>
+	</tr>
+	<tr>
+		<td width="407" align="center">
+			<img border="0" src="pictures/Drummond%20Island%20Pics/drummond%202.jpg" width="289" height="175">
+		</td>
+		<td align="center">
+			<img border="0" src="pictures/Drummond%20Island%20Pics/drummond%20isl%201.jpg" width="263" height="180">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<iframe width="420" height="315" src="//www.youtube.com/embed/pmWQ2uZfPSU" frameborder="0" allowfullscreen></iframe>
+		</td>
+		<td>
+			<iframe width="560" height="315" src="//www.youtube.com/embed/08ybHKjz0jY" frameborder="0" allowfullscreen></iframe>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<font face="Comic Sans MS" size="4" color="#FFFFFF"></br><a href="pictures/DrumIslan2012.jpg"><img src="pictures/DrumIslan2012.jpg" width="400"/></a></br></br> 
+
+			G.L.A.S.S.</br>
+
+			(Great Lakes Antique Snowmobile Series)</br>
+
+			Vintage One-Lunger Snowmobile Racing!</br></br>
+
+			</font></b><font face="Comic Sans MS" size="4">
+			<a href="http://www.drummondislandchamber.com">		
+			<font color="#800000">www.drummondislandchamber.com</font></a></font><p align="center">&nbsp;
+			
+			<div><iframe width="500" height="400" frameborder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=45.993387~-83.734760&lvl=15&w=500&h=400&sty=r&typ=d&pp=~~45.993715~-83.734653&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS"></iframe><div style="margin: 12px 0 0 0;"><a target="_blank" href="http://www.bing.com/maps/?cp=45.993387~-83.734760&sty=r&lvl=15&where1=45.993715,-83.734653&mm_embed=map">View Larger Map</a>&nbsp; |&nbsp; <a target="_blank" href="http://www.bing.com/maps/?cp=45.993387~-83.734760&sty=r&lvl=15&rtp=~pos.45.993715_-83.734653__&mm_embed=dir">Get Directions</a>&nbsp; |&nbsp; <a target="_blank" href="http://www.bing.com/maps/?cp=rnz1qh80nx0x&sty=b&lvl=18&where1=45.993715,-83.734653&mm_embed=be">View Bird's Eye</a></div></div>
+			
+				<table border="0" width="100%">
+					<tr>
+						<td align="center">
+						<font face="Berlin Sans FB" size="5" color="#FFFFFF">
+						<a href="mailto:danautore@yahoo.com?subject=Cedarville Blizzard Information Request">Email</a>
+							<table width="133" border="0" cellspacing="0" cellpadding="3">
+								<tr>
+									<td align="center">
+										<a href="http://www.website-hit-counters.com/fancy-hit-counters.html" target="_blank">
+										<img src="http://www.website-hit-counters.com/cgi-bin/image.pl?URL=177789-4895"alt="free hit counters" border="0" >				
+									</td>
+								</tr>
+								<tr>
+									<td align="center">
+									<font style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #330006; text-decoration: none;">
+									Counter provided by <a href="http://www.website-hit-counters.com" target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #555556; text-decoration: none;" title="www.website-hit-counters.com">www.website-hit-counters.com</a>
+									</font>
+									</td>
+								</tr>
+							</table>
+						</a>
+						</font>
+						</td>
+					</tr>
+				</table>
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

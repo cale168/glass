@@ -1,0 +1,54 @@
+<?php include("header.html");?>
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Newberry</title>
+
+</head>
+
+<table style="width:75%" align="center"><tr><td>
+
+<p align="center"><font size="4" color="#FFFFFF">
+
+<font size="7" color="#FFFF00" face="Algerian">NEWBERRY</font><br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!--<div style="height:250px;overflow:scroll;padding:5px;">
+</div>-->
+  
+Thanks to all the racers that showed up. The Newberry Lions Club had a great time racing with all of you this year and have already started making adjustments for next year to make this an even better track and race.  My favorite part of racing is the family atmosphere, it was a smaller than usual race this year due to weather conditions, but teams stepped up and helped fellow team members with their sleds. Teams were even giving sleds to others to race, just to see the smile on their faces like they themselves have.  This is truly a family event, maybe not by blood family, but by the love of racing family.    
+<br><br> 
+Congratulations to Team Chippewa and the Hank family for winning this years $1000 1st place prize in the Newberry Bogie Buster 1 Lunger Enduro.
+ <br><br>
+Congratulations to Zack Frazier for winning the Billy Travis #34 Super Stock 150 $1000 1st place prize.  
+Not only did Zack endure the 150 laps, when presented with his prize, he donated half his winnings to Billy Travis’s family.  This is how much racers are truly family.  This has been an unusually hard year here in Newberry losing 2 racers that represent our town (Tyler Barker, and Billy Travis) .  Our prayers are with both families.
+ <br><br>
+Tyler, you should be proud of your teammates. They represent you well and I hope to see great things from them next year. Great job team 906, you all are truly great friends!
+ <br><br>
+Thanks again to all of our sponsors this year without you this event would not be possible.
+
+</font><br><br><br>
+
+<a href="Rules/NewberryVintageSledRules.doc">Download Rules Here</a>
+
+<br><br><br>
+
+<!--<img src="/pictures/NewberryWinners16.jpg" width="500" align="center"/>-->
+<br><br><br>
+<img src="/pictures/BogieBuster2017.jpg"  width="800"/>
+&nbsp;
+
+</p>
+
+
+
+</td></tr>
+</table>
+
+
+</body>
+
+</html>

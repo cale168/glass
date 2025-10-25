@@ -1,0 +1,78 @@
+<?php include("header.html");?>
+
+<table border="1" width="1000" bordercolorlight="#000080" bordercolordark="#000080">
+	<tr>
+		<td valign="top">
+		<table border="0" width="100%">
+			<tr>
+				<td valign="top">
+				<p align="center">
+				<font color="#FFFFFF" face="Hot Rod Gang BV" style="font-size: 35pt">
+				
+				Brad Redmond Memorial @ The I-500<br><br>
+				
+				</font>
+				<font color="#FFFFFF">
+				
+				The Brad Redmond race has been cancelled for 2017 due to weather conditions. See you next year!
+				
+				</font>
+				</p>	
+			
+				<!--<iframe width="560" height="315" src="//www.youtube.com/embed/txpUkMjYUxM" frameborder="0" allowfullscreen></iframe>-->
+				
+				<p align="center"><font face="Berlin Sans FB" size="5">
+				<div align="center">
+				&nbsp;</div>
+				<div align="center"> 
+				
+				<div><iframe width="500" height="400" frameborder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=46.486395~-84.372068&lvl=15&w=500&h=400&sty=r&typ=d&pp=~~46.487370~-84.369557&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS"></iframe><div style="margin: 12px 0 0 0;"><a target="_blank" href="http://www.bing.com/maps/?cp=46.486395~-84.372068&sty=r&lvl=15&where1=46.487370,-84.369557&mm_embed=map">View Larger Map</a>&nbsp; |&nbsp; <a target="_blank" href="http://www.bing.com/maps/?cp=46.486395~-84.372068&sty=r&lvl=15&rtp=~pos.46.487370_-84.369557__&mm_embed=dir">Get Directions</a>&nbsp; |&nbsp; <a target="_blank" href="http://www.bing.com/maps/?cp=rrf34y7z28gx&sty=b&lvl=18&where1=46.487370,-84.369557&mm_embed=be">View Bird's Eye</a></div></div>
+				
+				<font color="#FFFFFF" size="5" face="Berlin Sans FB"><br>
+				&nbsp;</font></div>
+				<div align="center">
+				<div align="center">
+					<table width="537" border="0">
+						<tr>
+							<td>
+							<p align="center"><font color="#ffffff">
+							<font size="2"><font face="Franklin Gothic Book">
+							Website owned and operated by Great Lakes Antique 
+							Snowmobile Series (G.L.A.S.S.).</font><br>
+							© </font><font face="Franklin Gothic Book" size="2">
+							All photos and objects are property of the G.L.A.S.S. 
+							and cannot be used without consent (2009)</font></font></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+				</td>
+			</tr>
+		</table>
+	</tr>
+</table>
+
+<p align="center">&nbsp;
+<table width="133" border="0" cellspacing="0" cellpadding="3">
+	<tr>
+		<td align="center">
+			<a href="http://www.website-hit-counters.com/fancy-hit-counters.html" target="_blank">
+				<img src="http://www.website-hit-counters.com/cgi-bin/image.pl?URL=177789-4895"alt="free hit counters" border="0" >
+			</a>
+		</td>
+	</tr>
+	<tr>
+		<td align="center">
+			<font style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #330006; text-decoration: none;">
+				Counter provided by 
+					<a href="http://www.website-hit-counters.com" target="_blank" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #555556; text-decoration: none;" title="www.website-hit-counters.com">www.website-hit-counters.com
+					</a>
+			</font>
+		</td>
+	</tr>
+</table>
+
+
+</body>
+
+</html>
