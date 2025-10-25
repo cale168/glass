@@ -1,0 +1,32 @@
+<?php include('../../header.html');
+
+$pts=array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
+
+$mod=array
+(
+	array(20,"Kaysner Racing",	$pts[1],$pts[3],$pts[6],$pts[0]),
+	array("1-B","Team Chippewa",$pts[2],$pts[2],$pts[1],$pts[0]),
+	array(14,"ATF Motorsports",	$pts[3],$pts[4],$pts[4],$pts[0]),
+	array(98,"Wide Open Racing",$pts[4],$pts[8],$pts[5],$pts[0]),
+	array("1-Blk","Team Chippewa",$pts[5],$pts[1],$pts[8],$pts[0]),
+	array(69,"Fast Azz",		$pts[6],$pts[6],$pts[9],$pts[0]),
+	array(86,"MPH Racing",		$pts[7],$pts[5],$pts[2],$pts[0]),
+	array("0H","Outlaw Racing",	$pts[8],$pts[0],$pts[0],$pts[0]),
+	array("05","Holeshot Racing",$pts[9],$pts[9],$pts[3],$pts[0]),
+	array(112,"Bay Mills/Shinault",$pts[10],$pts[0],$pts[0],$pts[0]),
+	array('7','Killackey Racing',$pts[0],$pts[7],$pts[0],$pts[0]),
+	array('22','Eyeball Engineering',$pts[0],$pts[0],$pts[7],$pts[0]),
+	array('','','','','',''),
+	array('','','','','',''),
+	array('','','','','',''),
+	array('','','','','',''),
+	array('','','','','',''),
+	array('','','','','',''),
+	array('','','','','',''),
+	array('','','','','','')
+);
+
+include('../pointsTable.php');
+
+?>
+
