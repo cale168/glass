@@ -1,4 +1,23 @@
-<?php include("header.html");?>
+<div id="header"></div>
+
+<style>
+body {
+    background-color: rgb(0, 0, 0);
+}
+</style>
+
+<script>
+// Load external HTML into the #header div
+fetch('/glass/header.html')
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load HTML");
+    return response.text();
+  })
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  })
+  .catch(err => console.error(err));
+</script>
 
 <html>
 
@@ -24,7 +43,7 @@ Thanks to all the racers that showed up. The Newberry Lions Club had a great tim
 Congratulations to Team Chippewa and the Hank family for winning this years $1000 1st place prize in the Newberry Bogie Buster 1 Lunger Enduro.
  <br><br>
 Congratulations to Zack Frazier for winning the Billy Travis #34 Super Stock 150 $1000 1st place prize.  
-Not only did Zack endure the 150 laps, when presented with his prize, he donated half his winnings to Billy Travis’s family.  This is how much racers are truly family.  This has been an unusually hard year here in Newberry losing 2 racers that represent our town (Tyler Barker, and Billy Travis) .  Our prayers are with both families.
+Not only did Zack endure the 150 laps, when presented with his prize, he donated half his winnings to Billy Travisï¿½s family.  This is how much racers are truly family.  This has been an unusually hard year here in Newberry losing 2 racers that represent our town (Tyler Barker, and Billy Travis) .  Our prayers are with both families.
  <br><br>
 Tyler, you should be proud of your teammates. They represent you well and I hope to see great things from them next year. Great job team 906, you all are truly great friends!
  <br><br>

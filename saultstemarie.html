@@ -1,4 +1,23 @@
-<?php include("header.html");?>
+<div id="header"></div>
+
+<style>
+body {
+    background-color: rgb(0, 0, 0);
+}
+</style>
+
+<script>
+// Load external HTML into the #header div
+fetch('/glass/header.html')
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load HTML");
+    return response.text();
+  })
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  })
+  .catch(err => console.error(err));
+</script>
 
 <table border="1" width="1000" bordercolorlight="#000080" bordercolordark="#000080">
 	<tr>
@@ -39,7 +58,7 @@
 							<font size="2"><font face="Franklin Gothic Book">
 							Website owned and operated by Great Lakes Antique 
 							Snowmobile Series (G.L.A.S.S.).</font><br>
-							© </font><font face="Franklin Gothic Book" size="2">
+							ï¿½ </font><font face="Franklin Gothic Book" size="2">
 							All photos and objects are property of the G.L.A.S.S. 
 							and cannot be used without consent (2009)</font></font></td>
 						</tr>

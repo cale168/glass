@@ -1,8 +1,27 @@
-<<?php include("header.html");?>
+<div id="header"></div>
+
+<style>
+body {
+    background-color: rgb(0, 0, 0);
+}
+</style>
+
+<script>
+// Load external HTML into the #header div
+fetch('/glass/header.html')
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load HTML");
+    return response.text();
+  })
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  })
+  .catch(err => console.error(err));
+</script>
 
 <table width="900" border="0"><td align="center">
 <br>
-<p align="left"> <span style="color:white">Modified Class Single Cylinder Ice Enduro Rules 2016</br></br>
+<p align="left"> <span style="color:white">Modified Class Single Cylinder Rules 2015</br></br>
 General	</br></br>
 1.1	Must be 18 years old to race mod enduro	</br>
 1.2	Max 5 Drivers per team (no jumping sleds must ride on team you signed up with)</br>	
@@ -41,8 +60,7 @@ Clutches	</br></br>
 4.2	Any secondary clutch allowed no roller clutches of any kind	</br></br>
 
 Track	</br></br>
-5.1	Molded rubber only, any size any year </br>
-5.2 No cleats, studs must not protrude past the lowest part of the paddle by more than 3/8"	</br></br>
+5.1	Molded rubber only, any size any year, no cleats of any kind, no studs, no traction control devices of any kind	</br></br>
 
 Protests	</br></br>
 Race director has final say on all protests, you have 15 minutes to protest a team after the race. 	
