@@ -2,7 +2,7 @@
 
 <script>
 // Load external HTML into the #header div
-fetch('glass/header.html')
+fetch('/glass/header.html')
   .then(response => {
     if (!response.ok) throw new Error("Failed to load HTML");
     return response.text();
@@ -63,7 +63,7 @@ Refunds for the Brad Redman race at the I-500 track were mailed on the 9th. Cont
 </span>
 
 <span style="font-family: Berlin Sans FB; font-size: medium; color:white;">
-Next Race: Hessel Bay 100 on February 18th. <a href="/hessel.php">Tentative Classes</a>  <br><br>
+Next Race: Hessel Bay 100 on February 18th. <a href="/glass/hessel.php">Tentative Classes</a>  <br><br>
 
 	Updates for 2017: we will be conforming to ISR Vinatage Oval Rules found here: 
 	<a href="http://isrracing.org/rules.cfm?aID=10021">Vintage Oval Rules</a> 
@@ -100,7 +100,7 @@ Next Race: Hessel Bay 100 on February 18th. <a href="/hessel.php">Tentative Clas
 					<br><br>
 					
 					<p align="left"><hSchedule>2017 NON GLASS RACES - Snow Enduro:</hSchedule></br>
-					<s>January 21st - Newberry Winter Blowout @ Zellar's Pit - <a href="newberry.php">More Info Here!</a></s> </br>
+					<s>January 21st - Newberry Winter Blowout @ Zellar's Pit - <a href="/glassnewberry.php">More Info Here!</a></s> </br>
 					<br>
 												
 					<p align="left"><hSchedule>2017 Class list: </hSchedule></br>
@@ -169,7 +169,7 @@ Next Race: Hessel Bay 100 on February 18th. <a href="/hessel.php">Tentative Clas
 </table>
 
 <p align="center">
-<img src="glass/GlassPoster2016" alt="2014 flyer" border="0" align="center" width"1000" />
+<img src="/glass/GlassPoster2016" alt="2014 flyer" border="0" align="center" width"1000" />
 	<span style="font-family: Franklin Gothic Book; color: #ffffff; font-size: x-small;"></br>
 		</br>
 		© Website owned and operated by Great Lakes Antique Snowmobile Series (G.L.A.S.S. 2009)&nbsp;&nbsp;&nbsp; -- &nbsp;&nbsp;&nbsp;			
