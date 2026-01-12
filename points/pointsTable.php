@@ -1,6 +1,8 @@
 <table width="850" border="0" style="color:gold">
 	<tr><th>pts</th><th>position</th><th>Number</th><th>Name</th><th>Newberry</th><th>Drummond</th><th>Rockview 1</th><th>Rockview 2</th><th>Total</th></tr>
 
+
+
 <?php
 
 	function cmp($a, $b)
