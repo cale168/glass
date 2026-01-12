@@ -1,31 +1,53 @@
-<?php include('../../header.html');
+<div id="header"></div>
 
-$pts=array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
+<style>
+	body {
+		background-color: rgb(0, 0, 0);
+	}
+</style>
 
-$mod=array
-(
-	array(11,"Bay Mills Racing",$pts[1],$pts[0],$pts[0],$pts[0]),
-	array("56","CMS Racing",$pts[2],$pts[0],$pts[0],$pts[0]),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','','')
+<script>
+	// Load external HTML into the #header div
+	fetch('/glass/header.html')
+		.then(response => {
+			if (!response.ok) throw new Error("Failed to load HTML");
+			return response.text();
+		})
+		.then(data => {
+			document.getElementById('header').innerHTML = data;
+		})
+		.catch(err => console.error(err));
+</script>
+
+<script>
+const points = new Array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
+
+const results = new Array(
+	Array(11,"Bay Mills Racing",$pts[1],$pts[0],$pts[0],$pts[0]),
+	Array("56","CMS Racing",$pts[2],$pts[0],$pts[0],$pts[0]),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','','')
 );
 
-include('../pointsTable.php');
+</script>
 
-?>
+<table width="850" border="0" style="color:gold">
+	<tr><th>pts</th><th>position</th><th>Number</th><th>Name</th><th>Newberry</th><th>Drummond</th><th>Rockview 1</th><th>Rockview 2</th><th>Total</th></tr>
+
+<script src="../../pointsTableBuilder.js"></script>
