@@ -1,31 +1,53 @@
-<?php include('../../../header.html');
+<div id="header"></div>
 
-$pts=array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
+<style>
+	body {
+		background-color: rgb(0, 0, 0);
+	}
+</style>
 
-$mod=array
-(
-	array("R2",	"Team D",$pts[1],$pts[0],$pts[8]),
-	array("94",	"Performance Racing",$pts[2],$pts[0],$pts[0]),
-	array("0H",	"Outlaw Racing",$pts[3],$pts[3],$pts[5]),
-	array(1,	"Team Chippewa",$pts[4],$pts[2],$pts[3]),
-	array("44",	"Kyle VanSloten",$pts[5],$pts[1],$pts[10]),
-	array("T2",	"Robins Farms",$pts[6],$pts[0],$pts[6]),
-	array('62',	'North Channel Outdoors', $pts[0],$pts[5],$pts[0]),
-	array('144','Dunn Racing',$pts[0],$pts[4],$pts[0]),
-	array('8',	'Warner Racing',$pts[0],$pts[6],$pts[7]),
-	array('98',	'Wide Open Racing',$pts[0],$pts[7],$pts[0]),
-	array('173','Blue Thunder',$pts[0],$pts[0],$pts[1]),
-	array('86',	'MPH Racing',$pts[0],$pts[0],$pts[2]),
-	array('924','WAG Racing',$pts[0],$pts[0],$pts[4]),
-	array('11',	'Bay Mills Racing',$pts[0],$pts[0],$pts[9]),
-	array('54',	'Furkey Racing',$pts[0],$pts[0],$pts[11]),
-	array('11W','Bay Mills Racing',$pts[0],$pts[0],$pts[13]),
-	array('3B','IBS Racing',$pts[0],$pts[0],$pts[14]),
-	array('15','Zach Frazier',$pts[0],$pts[0],$pts[0]),
-	array('','','','','',''),
-	array('','','','','','')
+<script>
+	// Load external HTML into the #header div
+	fetch('/glass/header.html')
+		.then(response => {
+			if (!response.ok) throw new Error("Failed to load HTML");
+			return response.text();
+		})
+		.then(data => {
+			document.getElementById('header').innerHTML = data;
+		})
+		.catch(err => console.error(err));
+</script>
+
+<script>
+const points = new Array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
+
+const results = new Array(
+	Array("R2",	"Team D",points[1],points[0],points[8]),
+	Array("94",	"Performance Racing",points[2],points[0],points[0]),
+	Array("0H",	"Outlaw Racing",points[3],points[3],points[5]),
+	Array(1,	"Team Chippewa",points[4],points[2],points[3]),
+	Array("44",	"Kyle VanSloten",points[5],points[1],points[10]),
+	Array("T2",	"Robins Farms",points[6],points[0],points[6]),
+	Array('62',	'North Channel Outdoors', points[0],points[5],points[0]),
+	Array('144','Dunn Racing',points[0],points[4],points[0]),
+	Array('8',	'Warner Racing',points[0],points[6],points[7]),
+	Array('98',	'Wide Open Racing',points[0],points[7],points[0]),
+	Array('173','Blue Thunder',points[0],points[0],points[1]),
+	Array('86',	'MPH Racing',points[0],points[0],points[2]),
+	Array('924','WAG Racing',points[0],points[0],points[4]),
+	Array('11',	'Bay Mills Racing',points[0],points[0],points[9]),
+	Array('54',	'Furkey Racing',points[0],points[0],points[11]),
+	Array('11W','Bay Mills Racing',points[0],points[0],points[13]),
+	Array('3B','IBS Racing',points[0],points[0],points[14]),
+	Array('15','Zach Frazier',points[0],points[0],points[0]),
+	Array('','','','','',''),
+	Array('','','','','','')
 );
 
-include('pointsTable.php');
+</script>
 
-?>
+<table width="850" border="0" style="color:gold">
+	<tr><th>pts</th><th>position</th><th>Number</th><th>Name</th><th>Newberry</th><th>Drummond</th><th>Rockview 1</th><th>Rockview 2</th><th>Total</th></tr>
+
+<script src="../pointsTableBuilder.js"></script>
