@@ -1,4 +1,19 @@
-<?php include("header.html");?>
+<div id="header"></div>
+
+
+<script>
+// Load external HTML into the #header div
+fetch('/glass/header.html')
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load HTML");
+    return response.text();
+  })
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  })
+  .catch(err => console.error(err));
+</script>
+
 <style>
 body {
     color: white;
