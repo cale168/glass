@@ -1,0 +1,53 @@
+<div id="header"></div>
+
+<style>
+	body {
+		background-color: rgb(0, 0, 0);
+	}
+</style>
+
+<script>
+	// Load external HTML into the #header div
+	fetch('/glass/header.html')
+		.then(response => {
+			if (!response.ok) throw new Error("Failed to load HTML");
+			return response.text();
+		})
+		.then(data => {
+			document.getElementById('header').innerHTML = data;
+		})
+		.catch(err => console.error(err));
+</script>
+
+<script>
+const points = new Array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
+
+const results = new Array(
+	Array(8,"Warner Racing",points[0],points[1],points[0]),
+	Array(4,"H & C Racing",points[0],points[2],points[0]),
+	Array(144,"Dunn Racing",points[0],points[3],points[0]),
+	Array(21,"Straw",points[0],points[0],points[4]),
+	Array(4,"Ellis Racing",points[0],points[5],points[1]),
+	Array(18,"The Law",points[0],points[6],points[0]),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','','')
+);
+
+</script>
+
+<table width="850" border="0" style="color:gold">
+	<tr><th>pts</th><th>position</th><th>Number</th><th>Name</th><th>Newberry</th><th>Drummond</th><th>Rockview 1</th><th>Rockview 2</th><th>Total</th></tr>
+
+<script src="../pointsTableBuilder.js"></script>
