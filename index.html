@@ -1,4 +1,15 @@
-<?php include("header.html");?>
+<script>
+// Load external HTML into the #header div
+fetch('https://cale168.github.io/glass/header.html')
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load HTML");
+    return response.text();
+  })
+  .then(data => {
+    document.getElementById('header').innerHTML = data;
+  })
+  .catch(err => console.error(err));
+</script>
 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
