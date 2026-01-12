@@ -1,347 +1,395 @@
 <div id="header"></div>
 
 <style>
-body {
-    background-color: rgb(0, 0, 0);
-}
+	body {
+		background-color: rgb(0, 0, 0);
+	}
 </style>
 
 <script>
-// Load external HTML into the #header div
-fetch('/glass/header.html')
-  .then(response => {
-    if (!response.ok) throw new Error("Failed to load HTML");
-    return response.text();
-  })
-  .then(data => {
-    document.getElementById('header').innerHTML = data;
-  })
-  .catch(err => console.error(err));
+	// Load external HTML into the #header div
+	fetch('/glass/header.html')
+		.then(response => {
+			if (!response.ok) throw new Error("Failed to load HTML");
+			return response.text();
+		})
+		.then(data => {
+			document.getElementById('header').innerHTML = data;
+		})
+		.catch(err => console.error(err));
 </script>
 
 <table width="850" border="0" style="color:gold">
-<tbody>
-
-<tr>
-<td>
-	</br>
-	<table width="950" border="1" style="color:gold">
 	<tbody>
-	<tr>
-		<td>	
-			<p>
-			Snow Enduro <br>
-			2016 Newberry Jan. 23rd		<a href="http://www.mylaps.com/en/events/1235809">Results </a></br>
-			2016 Drummond Island Feb. 13th		<a href="http://www.mylaps.com/en/events/1235807">Results </a></br>
-			2016 Rockview Mar. 5th 		<a href="http://www.mylaps.com/en/events/1240959">Results </a></br>
-			2016 Rockview Raceway Mar. 19th <!--<a href="">Results </a>--></br>
-			</p>
-			<p>
-			Ice Oval <br>
-			2016 Hessel 200 Feb. 20th <a href="http://www.mylaps.com/en/events/1238872">Results </a><br>
-			2016 Raber Bay Enduro Mar. 12th <a href="http://www.mylaps.com/en/events/1240963">Results </a>
-			</p>
-		</td>
 
-		<td>
-			<p align="center">
-												2016 Championship Mod </br>
-			<a href="points/2016/points16.html">	Mod Points </a></br>
-			<a href="points/2016/pointsJM16.html">	Mod Jr. Points </a></br>
-			<a href="points/2016/pointsPPM16.html">Mod PowderPuff Points </a></br>
-			<a href="points/2016/pointsSM16.html">	Mod Senior Points </a></br>
-			<a href="points/2016/pointsPSE16.html">Pro Stock Enduro Points </a></br>
-			</br>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2016 Championship Stock </br>
-		    <a href="points/2016/points2US16.html">2up Stock Points </a></br>
-			<a href="points/2016/pointsJSA.html">Junior A Points </a></br>
-			<a href="points/2016/pointsJSB16.html">Junior B Points </a></br>
-			<a href="points/2016/pointsPP16.html">	Powderpuff Points </a></br>
-			<a href="points/2016/pointsSS16.html">	Senior Points </a></br>
-			<a href="points/2016/pointsS16.html">	Stock 18+ Points</a></br>
-			<a href="points/2016/pointsSE16.html">	Stock Enduro Points</a>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2016 Championship Twin </br>
-		    <a href="points/2016/pointsTS16.html">Twin Stock Points </a></br>
-			<a href="points/2016/points55T16.html">Twin Stock 55+ Points</a></br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2016 Ice Oval Championship </br>
-		    <a href="points/2016/IceOval/Mod.html">Mod</a></br>
-			<a href="points/2016/IceOval/Twin.html">Twin</a></br>
-			<a href="points/2016/IceOval/Stock.html">Stock</a><br>
-			<a href="points/2016/IceOval/ChampMod.html">Champ</a></br>
-			<a href="points/2016/IceOval/JuniorA.html">Jr. A</a></br>
-			<a href="points/2016/IceOval/SeniorStock.html">Senior Stock</a><br>
-			<a href="points/2016/IceOval/SeniorMod.html">Senior Mod</a><br>
-			</p>
-		</td>
-	</tr>
+		<tr>
+			<td>
+				</br>
+				<table width="950" border="1" style="color:gold">
+					<tbody>
+						<tr>
+							<td>
+								<p>
+									Snow Enduro <br>
+									2016 Newberry Jan. 23rd <a href="http://www.mylaps.com/en/events/1235809">Results
+									</a></br>
+									2016 Drummond Island Feb. 13th <a
+										href="http://www.mylaps.com/en/events/1235807">Results </a></br>
+									2016 Rockview Mar. 5th <a href="http://www.mylaps.com/en/events/1240959">Results
+									</a></br>
+									2016 Rockview Raceway Mar. 19th <!--<a href="">Results </a>--></br>
+								</p>
+								<p>
+									Ice Oval <br>
+									2016 Hessel 200 Feb. 20th <a href="http://www.mylaps.com/en/events/1238872">Results
+									</a><br>
+									2016 Raber Bay Enduro Mar. 12th <a
+										href="http://www.mylaps.com/en/events/1240963">Results </a>
+								</p>
+							</td>
+
+							<td>
+								<p align="center">
+									2016 Championship Mod </br>
+									<a href="points/2016/points16.html"> Mod Points </a></br>
+									<a href="points/2016/pointsJM16.html"> Mod Jr. Points </a></br>
+									<a href="points/2016/pointsPPM16.html">Mod PowderPuff Points </a></br>
+									<a href="points/2016/pointsSM16.html"> Mod Senior Points </a></br>
+									<a href="points/2016/pointsPSE16.html">Pro Stock Enduro Points </a></br>
+									</br>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2016 Championship Stock </br>
+									<a href="points/2016/points2US16.html">2up Stock Points </a></br>
+									<a href="points/2016/pointsJSA.html">Junior A Points </a></br>
+									<a href="points/2016/pointsJSB16.html">Junior B Points </a></br>
+									<a href="points/2016/pointsPP16.html"> Powderpuff Points </a></br>
+									<a href="points/2016/pointsSS16.html"> Senior Points </a></br>
+									<a href="points/2016/pointsS16.html"> Stock 18+ Points</a></br>
+									<a href="points/2016/pointsSE16.html"> Stock Enduro Points</a>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2016 Championship Twin </br>
+									<a href="points/2016/pointsTS16.html">Twin Stock Points </a></br>
+									<a href="points/2016/points55T16.html">Twin Stock 55+ Points</a></br>
+									<br>
+									<br>
+									<br>
+									<br>
+									<br>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2016 Ice Oval Championship </br>
+									<a href="points/2016/IceOval/Mod.html">Mod</a></br>
+									<a href="points/2016/IceOval/Twin.html">Twin</a></br>
+									<a href="points/2016/IceOval/Stock.html">Stock</a><br>
+									<a href="points/2016/IceOval/ChampMod.html">Champ</a></br>
+									<a href="points/2016/IceOval/JuniorA.html">Jr. A</a></br>
+									<a href="points/2016/IceOval/SeniorStock.html">Senior Stock</a><br>
+									<a href="points/2016/IceOval/SeniorMod.html">Senior Mod</a><br>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				</br>
+				<table width="850" border="0" style="color:gold">
+					<tbody>
+						<tr>
+							<td>
+								<p style="color:gold">
+									2015 Newberry Jan. 17th <a href="http://www.mylaps.com/en/events/1105011">Results
+									</a></br>
+									2015 St. Ignace Casino Jan. 31st <a
+										href="http://www.mylaps.com/en/events/1106769">Results </a></br>
+									2015 Cedarville Feb. 14th <a href="http://www.mylaps.com/en/events/1108430">Results
+									</a></br>
+									2015 Drummond Island Feb. 21st <a
+										href="http://www.mylaps.com/en/events/1110110">Results </a></br>
+									2015 Hessel Mar. 15th <a href="http://www.mylaps.com/en/events/1114866">Results </a>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2015 Championship Mod </br>
+									<a href="points/2015/points15"> Mod Points </a></br>
+									<a href="points/2015/pointsJM15"> Mod Jr. Points </a></br>
+									<a href="points/2015/pointsPPM15">Mod PowderPuff Points </a></br>
+									<a href="points/2015/pointsSM15"> Mod Senior Points </a></br>
+									<a href="points/2015/points2UM15">Mod 2up Points </a></br>
+									</br>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2015 Championship Stock </br>
+									<a href="points/2015/points2US15">2up Stock Points </a></br>
+									<a href="points/2015/pointsJSA15">Junior A Points </a></br>
+									<a href="points/2015/pointsJSB15">Junior B Points </a></br>
+									<a href="points/2015/pointsPP15"> Powderpuff Points </a></br>
+									<a href="points/2015/pointsSS15"> Senior Points </a></br>
+									<a href="points/2015/pointsTS15"> Twin Stock Points </a></br>
+									<a href="points/2015/points80S15"> Stock 80 Points </a></br>
+									<a href="points/2015/pointsS15"> Stock Points</a>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+				</br>
+				<table width="850" border="1" style="color:gold">
+					<tbody>
+						<tr>
+							<td>
+								<p style="color:gold">
+									2014 Cheboygan Jan. 25th <a href="http://www.mylaps.com/en/events/985076">Results
+									</a></br>
+									2014 Cedarville Feb. 8th <a href="http://www.mylaps.com/en/events/987001">Results
+									</a></br>
+									2014 Drummond Island Feb. 15th <a
+										href="http://www.mylaps.com/en/events/987810">Results </a></br>
+									2014 Sault Ste. Marie March. 1st <a
+										href="http://www.mylaps.com/en/events/990859">Results </a></br>
+									2014 Kinross March. 15th <a href="http://www.mylaps.com/en/events/993632">Results
+									</a>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2014 Championship Mod </br>
+									<a href="points/2014/points2014"> Mod Points </a></br>
+									<a href="points/2014/pointsJM2014"> Mod Jr. Points </a></br>
+									<a href="points/2014/pointsPPM2014">Mod PowderPuff Points </a></br>
+									<a href="points/2014/pointsSM2014"> Mod Senior Points </a></br>
+									<a href="points/2014/points2UM2014">Mod 2up Points </a></br>
+									</br>
+								</p>
+							</td>
+							<td>
+								<p style="color:gold" align="center">
+									2014 Championship Stock </br>
+									<a href="points/2014/points2US2014">2up Stock Points </a></br>
+									<a href="points/2014/pointsJSA2014">Junior A Points </a></br>
+									<a href="points/2014/pointsJSB2014">Junior B Points </a></br>
+									<a href="points/2014/pointsPP2014"> Powderpuff Points </a></br>
+									<a href="points/2014/pointsSS2014"> Senior Points </a></br>
+									<a href="points/2014/pointsS2014"> Stock Points</a>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</td>
+		</tr>
+
+
+
+		<tr>
+			<td>
+				</br>
+				<table width="850" border="0" style="color:gold">
+					<tbody>
+						<tr>
+							<td>
+								<p style="color:gold">
+									2013 Drummond Island Jan. 27th <a
+										href="http://www.mylaps.com/en/events/866009">Results </a></br>
+									2013 Drummond Island Feb. 9th <a
+										href="http://www.mylaps.com/en/events/867752">Results </a></br>
+									2013 Sault Ste. Marie March. 9th <a
+										href="http://www.mylaps.com/en/events/873602">Results </a></br>
+									2013 Cedarville March. 16th <a href="http://www.mylaps.com/en/events/874693">Results
+									</a></br>
+									2013 Kinross March. 25th <a href="http://www.mylaps.com/en/events/876746">Results
+									</a></br></p>
+							</td>
+							<td>
+								<p align="center" style="color:gold">Championship 2013 Mod</br>
+									<a href="points/2013/points2013">MOD Points </a></br>
+									<a href="points/2013/pointsJM2013">Jr. MOD Points </a></br>
+									<a href="points/2013/pointsPPM2013">Powderpuff Mod Points </a></br>
+									<a href="points/2013/pointsSM2013">Senior Mod Points </a></br>
+									<a href="points/2013/points2UM2013">2up Mod Points </a></br></br>
+								</p>
+							</td>
+							<td>
+								<p align="center" style="color:gold">Championship 2013 Stock</br>
+									<a href="points/2013/points2US2013">2up Stock Points </a></br>
+									<a href="points/2013/pointsJSA2013">Junior A Points </a></br>
+									<a href="points/2013/pointsJSB2013">Junior B Points </a></br>
+									<a href="points/2013/pointsPP2013">Powderpuff Points </a></br>
+									<a href="points/2013/pointsSS2013">Senior Points </a></br>
+									<a href="points/2013/pointsS2013">Stock Points</a>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</td>
+		</tr>
+
+		<tr>
+			<td>
+
+				<table align="left" width="850" border="1" style="color:gold">
+					<tr>
+						<td>
+							<p align="left">
+								Championship 2012</br>
+								</br>
+								2012 Drummond Island Feb. 11th &amp; 12th </br>
+								2012 Newberry Feb. 24th &amp; 25th </br>
+								2012 Drummond Island 2 Mar. 3rd &amp; 4th </br>
+								2012 Cedarville Mar. 10th &amp; 11th</br>
+
+							</p>
+						</td>
+						<td>
+							<p align="center"><a href="points/2012/points2012">MOD </a></br>
+								</br>
+								<a href="points/2012/DrumIsM2012">MOD </a></br>
+								<a href="points/2012/NewbM2012">MOD </a></br>
+								<a href="points/2012/DrumIs2M2012">MOD </a></br>
+								<a href="points/2012/CedarM2012">MOD </a></br>
+							</p>
+
+						</td>
+						<td>
+							<p align="center"><a href="points/2012/pointsJS2012">Junior </a></br>
+								</br>
+								<a href="points/2012/DrumIsJS2012">Junior </a></br>
+								<a href="points/2012/Newb1417-2012">Age: 14 - 17 </a></br>
+								<a href="points/2012/DrumIs2JS2012">Junior </a></br>
+								<a href="points/2012/CedarJS2012">Junior </a></br>
+							</p>
+
+						</td>
+						<td>
+							<p align="center"><a href="points/2012/pointsPP2012">Powderpuff </a></br>
+								</br>
+								<a href="points/2012/DrumIsPP2012">Powderpuff </a></br>
+								<a href="points/2012/NewbPP2012">Powderpuff </a></br>
+								<a href="points/2012/DrumIs2PP2012">Powderpuff </a></br>
+								<a href="points/2012/CedarPP2012">Powderpuff </a></br>
+							</p>
+
+						</td>
+						<td>
+							<p align="center"><a href="points/2012/pointsSS2012">Senior </a></br>
+								</br>
+								<a href="points/2012/DrumIsSS2012">Senior </a></br>
+								</br>
+								<a href="points/2012/DrumIs2SS2012">Senior </a></br>
+								<a href="points/2012/CedarSS2012">Senior </a></br>
+							</p>
+
+						</td>
+						<td>
+							<p align="center"><a href="points/2012/pointsS2012">Stock</a></br>
+								</br>
+								<a href="points/2012/DrumIsS2012">Stock </a></br>
+								<a href="points/2012/NewbS2012">Stock </a></br>
+								<a href="points/2012/DrumIs2S2012">Stock </a></br>
+								<a href="points/2012/CedarS2012">Stock </a></br>
+							</p>
+
+						</td>
+						<td>
+							<p align="center">
+								</br></br></br>
+								<a href="points/2012/Newb120-2012">120 Race </a></br>
+								</br>
+								<a href="points/2012/Cedar2up2012">2up </a>
+							</p>
+
+						</td>
+						<td>
+							<p align="center">
+								</br>
+								<a href="points/2012/Newb913-2012">Age: 9 - 13 </a></br>
+							</p>
+
+						</td>
+					</tr>
+				</table>
+		<tr>
+			<td align="center">
+
+				<p align="left">&nbsp;
+					</br>
+					2011 January 14 - Rusty Stud <a href="http://www.mylaps.com/en/classification/1772883">Results </a>
+					</br>
+					2011 January 28 - Blizzard 200 <a href="http://www.mylaps.com/en/classification/1778988">Results
+					</a> </br>
+					2011 February 12 - Drummond Island 200 <a
+						href="http://www.mylaps.com/en/classification/1789223">Results </a> </br>
+
+					</br>
+					2010 January 31 - Blizzard 250 <a href="http://www.mylaps.com/en/events/503010">Results </a> </br>
+					2010 February 12 - Rusty Stud 250 <a href="http://www.mylaps.com/en/events/504816">Results </a>
+					</br>
+					2010 February 26 - Newberry 200 <a href="http://www.mylaps.com/en/events/507266">Results </a> </br>
+					2010 March 13 - Drummond Island <a href="http://www.mylaps.com/en/classification/1420645">Results
+					</a> </br>
+
+					</br>
+					2009 February 14 - Rusty Stud 250 <a href="http://www.mylaps.com/en/classification/1045322">Results
+					</a> </br>
+					2009 March 14 - Tired Iron 150 <a href="http://www.mylaps.com/en/classification/1060670">Results
+					</a> </br>
+					2009 March 21 - Blizzard 200 <a href="http://www.mylaps.com/en/classification/1065632">Results </a>
+					</br>
+
+					</br>
+					2008 February 23 - Newberry 200 <a href="http://www.mylaps.com/en/classification/733084">Results
+					</a> </br>
+					2008 March 15 - Tired Iron 250 <a href="http://www.mylaps.com/en/classification/747907">Results </a>
+					</br>
+
+					</br>
+				</p>
+				<p align="center">&nbsp;
+				<table width="133" cellpadding="3" cellspacing="0" border="0">
+					<tbody>
+						<tr>
+							<td align="center"><a target="_blank"
+									href="https://www.website-hit-counters.com/fancy-hit-counters.html"><img
+										src="https://www.website-hit-counters.com/cgi-bin/image.pl?URL=177789-4895"
+										alt="free hit counters" border="0" /></a></td>
+						</tr>
+						<tr>
+							<td align="center"><span style="font-size: 9px; text-decoration: none;">Counter provided by
+									<a target="_blank" href="https://www.website-hit-counters.com"
+										title="www.website-hit-counters.com"
+										style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #555556; text-decoration: none;">www.website-hit-counters.com</a>
+									.</span></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+				</p>
+			</td>
+		</tr>
 	</tbody>
-	</table>
-	
-</td>
-</tr>
-
-<tr>
-<td>
-	</br>
-	<table width="850" border="0" style="color:gold">
-	<tbody>
-	<tr>
-		<td>
-			<p style="color:gold">
-			2015 Newberry Jan. 17th		<a href="http://www.mylaps.com/en/events/1105011">Results </a></br>
-			2015 St. Ignace Casino Jan. 31st		<a href="http://www.mylaps.com/en/events/1106769">Results </a></br>
-			2015 Cedarville Feb. 14th 	<a href="http://www.mylaps.com/en/events/1108430">Results </a></br>
-			2015 Drummond Island Feb. 21st <a href="http://www.mylaps.com/en/events/1110110">Results </a></br>
-			2015 Hessel Mar. 15th 		<a href="http://www.mylaps.com/en/events/1114866">Results </a>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2015 Championship Mod </br>
-			<a href="points/2015/points15">	Mod Points </a></br>
-			<a href="points/2015/pointsJM15">	Mod Jr. Points </a></br>
-			<a href="points/2015/pointsPPM15">Mod PowderPuff Points </a></br>
-			<a href="points/2015/pointsSM15">	Mod Senior Points </a></br>
-			<a href="points/2015/points2UM15">Mod 2up Points </a></br>
-			</br>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2015 Championship Stock </br>
-			<a href="points/2015/points2US15">2up Stock Points </a></br>
-			<a href="points/2015/pointsJSA15">Junior A Points </a></br>
-			<a href="points/2015/pointsJSB15">Junior B Points </a></br>
-			<a href="points/2015/pointsPP15">	Powderpuff Points </a></br>
-			<a href="points/2015/pointsSS15">	Senior Points </a></br>
-			<a href="points/2015/pointsTS15">	Twin Stock Points </a></br>
-			<a href="points/2015/points80S15">	Stock 80 Points </a></br>
-			<a href="points/2015/pointsS15">	Stock Points</a>
-			</p>
-		</td>
-	</tr>
-	</tbody>
-	</table>
-	
-</td>
-</tr>
-
-<tr>
-<td>
-	</br>
-	<table width="850" border="1" style="color:gold">
-	<tbody>
-	<tr>
-		<td>
-			<p style="color:gold">
-			2014 Cheboygan Jan. 25th		<a href="http://www.mylaps.com/en/events/985076">Results </a></br>
-			2014 Cedarville Feb. 8th		<a href="http://www.mylaps.com/en/events/987001">Results </a></br>
-			2014 Drummond Island Feb. 15th 	<a href="http://www.mylaps.com/en/events/987810">Results </a></br>
-			2014 Sault Ste. Marie March. 1st <a href="http://www.mylaps.com/en/events/990859">Results </a></br>
-			2014 Kinross March. 15th 		<a href="http://www.mylaps.com/en/events/993632">Results </a>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2014 Championship Mod </br>
-			<a href="points/2014/points2014">	Mod Points </a></br>
-			<a href="points/2014/pointsJM2014">	Mod Jr. Points </a></br>
-			<a href="points/2014/pointsPPM2014">Mod PowderPuff Points </a></br>
-			<a href="points/2014/pointsSM2014">	Mod Senior Points </a></br>
-			<a href="points/2014/points2UM2014">Mod 2up Points </a></br>
-			</br>
-			</p>
-		</td>
-		<td>
-			<p style="color:gold" align="center">
-												2014 Championship Stock </br>
-			<a href="points/2014/points2US2014">2up Stock Points </a></br>
-			<a href="points/2014/pointsJSA2014">Junior A Points </a></br>
-			<a href="points/2014/pointsJSB2014">Junior B Points </a></br>
-			<a href="points/2014/pointsPP2014">	Powderpuff Points </a></br>
-			<a href="points/2014/pointsSS2014">	Senior Points </a></br>
-			<a href="points/2014/pointsS2014">	Stock Points</a>
-			</p>
-		</td>
-	</tr>
-	</tbody>
-	</table>
-	
-</td>
-</tr>
-
-
-
-<tr>
-<td>
-	</br>
-	<table width="850" border="0" style="color:gold">
-	<tbody>
-	<tr>
-		<td>
-		<p style="color:gold">
-		2013 Drummond Island Jan. 27th <a href="http://www.mylaps.com/en/events/866009">Results </a></br>
-		2013 Drummond Island Feb. 9th  <a href="http://www.mylaps.com/en/events/867752">Results </a></br>
-		2013 Sault Ste. Marie March. 9th  <a href="http://www.mylaps.com/en/events/873602">Results </a></br>
-		2013 Cedarville March. 16th  <a href="http://www.mylaps.com/en/events/874693">Results </a></br>
-		2013 Kinross March. 25th  <a href="http://www.mylaps.com/en/events/876746">Results </a></br></p>
-		</td>
-		<td>
-		<p align="center" style="color:gold">Championship 2013 Mod</br>
-		<a href="points/2013/points2013">MOD Points </a></br>
-		<a href="points/2013/pointsJM2013">Jr. MOD Points </a></br>
-		<a href="points/2013/pointsPPM2013">Powderpuff Mod Points </a></br>
-		<a href="points/2013/pointsSM2013">Senior Mod Points </a></br>
-		<a href="points/2013/points2UM2013">2up Mod Points </a></br></br></p>
-		</td>
-		<td>
-		<p align="center" style="color:gold">Championship 2013 Stock</br>
-		<a href="points/2013/points2US2013">2up Stock Points </a></br>
-		<a href="points/2013/pointsJSA2013">Junior A Points </a></br>
-		<a href="points/2013/pointsJSB2013">Junior B Points </a></br>
-		<a href="points/2013/pointsPP2013">Powderpuff Points </a></br>
-		<a href="points/2013/pointsSS2013">Senior Points </a></br>
-		<a href="points/2013/pointsS2013">Stock Points</a></p>
-		</td>
-	</tr>
-	</tbody>
-	</table>
-</td>
-</tr>
-
-<tr>
-<td>
-
-<table align="left" width="850" border="1" style="color:gold">
-<tr><td>
-<p align="left">
-	Championship 2012</br>
-	</br>
-	2012 Drummond Island Feb. 11th &amp; 12th </br>
-	2012 Newberry Feb. 24th &amp; 25th </br>
-	2012 Drummond Island 2 Mar. 3rd &amp; 4th </br>
-	2012 Cedarville Mar. 10th &amp; 11th</br>
-		
-</p>
-</td><td>
-<p align="center"><a href="points/2012/points2012">MOD </a></br>
-</br>
-<a href="points/2012/DrumIsM2012">MOD </a></br>
-<a href="points/2012/NewbM2012">MOD </a></br>
-<a href="points/2012/DrumIs2M2012">MOD </a></br>
-<a href="points/2012/CedarM2012">MOD </a></br>
-</p>
-
-</td><td>
-<p align="center"><a href="points/2012/pointsJS2012">Junior </a></br>
-</br>
-<a href="points/2012/DrumIsJS2012">Junior </a></br>
-<a href="points/2012/Newb1417-2012">Age: 14 - 17 </a></br>
-<a href="points/2012/DrumIs2JS2012">Junior </a></br>
-<a href="points/2012/CedarJS2012">Junior </a></br>
-</p>
-
-</td><td>
-<p align="center"><a href="points/2012/pointsPP2012">Powderpuff </a></br>
-</br>
-<a href="points/2012/DrumIsPP2012">Powderpuff </a></br>
-<a href="points/2012/NewbPP2012">Powderpuff </a></br>
-<a href="points/2012/DrumIs2PP2012">Powderpuff </a></br>
-<a href="points/2012/CedarPP2012">Powderpuff </a></br>
-</p>
-
-</td><td>
-<p align="center"><a href="points/2012/pointsSS2012">Senior </a></br>
-</br>
-<a href="points/2012/DrumIsSS2012">Senior </a></br>
-</br>
-<a href="points/2012/DrumIs2SS2012">Senior </a></br>
-<a href="points/2012/CedarSS2012">Senior </a></br>
-</p>
-
-</td><td>
-<p align="center"><a href="points/2012/pointsS2012">Stock</a></br>
-</br>
-<a href="points/2012/DrumIsS2012">Stock </a></br>
-<a href="points/2012/NewbS2012">Stock </a></br>
-<a href="points/2012/DrumIs2S2012">Stock </a></br>
-<a href="points/2012/CedarS2012">Stock </a></br>
-</p>
-
-</td><td>
-<p align="center">
-</br></br></br>
-<a href="points/2012/Newb120-2012">120 Race  </a></br>
-</br>
-<a href="points/2012/Cedar2up2012">2up  </a>
-</p>
-
-</td><td>
-<p align="center">
-</br>
-<a href="points/2012/Newb913-2012">Age: 9 - 13  </a></br>
-</p>
-
-</td></tr></table>	
-<tr>
-<td align="center">
-
-<p align="left">&nbsp; 
-</br>
-2011 January 14 - Rusty Stud <a href="http://www.mylaps.com/en/classification/1772883">Results </a> </br>
-2011 January 28 - Blizzard 200 <a href="http://www.mylaps.com/en/classification/1778988">Results </a> </br>
-2011 February 12 - Drummond Island 200 <a href="http://www.mylaps.com/en/classification/1789223">Results </a> </br>
-
-</br>
-2010 January 31 - Blizzard 250 <a href="http://www.mylaps.com/en/events/503010">Results </a> </br>
-2010 February 12 - Rusty Stud 250 <a href="http://www.mylaps.com/en/events/504816">Results </a> </br>
-2010 February 26 - Newberry 200 <a href="http://www.mylaps.com/en/events/507266">Results </a> </br>
-2010 March 13 - Drummond Island <a href="http://www.mylaps.com/en/classification/1420645">Results </a> </br>
-
-</br>
-2009 February 14 - Rusty Stud 250 <a href="http://www.mylaps.com/en/classification/1045322">Results </a> </br>
-2009 March 14 - Tired Iron 150 <a href="http://www.mylaps.com/en/classification/1060670">Results </a> </br>
-2009 March 21 - Blizzard 200 <a href="http://www.mylaps.com/en/classification/1065632">Results </a> </br>
-
-</br>
-2008 February 23 - Newberry 200 <a href="http://www.mylaps.com/en/classification/733084">Results </a> </br>
-2008 March 15 - Tired Iron 250 <a href="http://www.mylaps.com/en/classification/747907">Results </a> </br>
-
-</br>
-</p>
-<p align="center">&nbsp; 
-<table width="133" cellpadding="3" cellspacing="0" border="0">
-<tbody>
-<tr>
-<td align="center"><a target="_blank" href="http://www.website-hit-counters.com/fancy-hit-counters.html"><img src="http://www.website-hit-counters.com/cgi-bin/image.pl?URL=177789-4895" alt="free hit counters" border="0" /></a></td>
-</tr>
-<tr>
-<td align="center"><span style="font-size: 9px; text-decoration: none;">Counter provided by <a target="_blank" href="http://www.website-hit-counters.com" title="www.website-hit-counters.com" style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 9px; color: #555556; text-decoration: none;">www.website-hit-counters.com</a> .</span></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-</p>
-</td>
-</tr>
-</tbody>
 </table>
 </div>
 </body>

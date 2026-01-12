@@ -1,22 +1,22 @@
 <div id="header"></div>
 
 <style>
-body {
+  body {
     background-color: rgb(0, 0, 0);
-}
+  }
 </style>
 
 <script>
-// Load external HTML into the #header div
-fetch('/glass/header.html')
-  .then(response => {
-    if (!response.ok) throw new Error("Failed to load HTML");
-    return response.text();
-  })
-  .then(data => {
-    document.getElementById('header').innerHTML = data;
-  })
-  .catch(err => console.error(err));
+  // Load external HTML into the #header div
+  fetch('/glass/header.html')
+    .then(response => {
+      if (!response.ok) throw new Error("Failed to load HTML");
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    })
+    .catch(err => console.error(err));
 </script>
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/JRaHNUNXqF0" frameborder="0" allowfullscreen></iframe>
@@ -27,4 +27,13 @@ fetch('/glass/header.html')
 
 </br></br>
 
-<div><iframe width="500" height="400" frameborder="0" src="http://www.bing.com/maps/embed/viewer.aspx?v=3&cp=46.267192~-84.496147&lvl=15&w=500&h=400&sty=r&typ=d&pp=~~46.267548~-84.493701&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS"></iframe><div style="margin: 12px 0 0 0;"><a target="_blank" href="http://www.bing.com/maps/?cp=46.267192~-84.496147&sty=r&lvl=15&where1=46.267548,-84.493701&mm_embed=map">View Larger Map</a>&nbsp; |&nbsp; <a target="_blank" href="http://www.bing.com/maps/?cp=46.267192~-84.496147&sty=r&lvl=15&rtp=~pos.46.267548_-84.493701__&mm_embed=dir">Get Directions</a>&nbsp; |&nbsp; <a target="_blank" href="http://www.bing.com/maps/?cp=rqb3yz7yrz55&sty=b&lvl=18&where1=46.267548,-84.493701&mm_embed=be">View Bird's Eye</a></div></div>
+<div><iframe width="500" height="400" frameborder="0"
+    src="https://www.bing.com/maps/embed/viewer.aspx?v=3&cp=46.267192~-84.496147&lvl=15&w=500&h=400&sty=r&typ=d&pp=~~46.267548~-84.493701&ps=&dir=0&mkt=en-us&src=SHELL&form=BMEMJS"></iframe>
+  <div style="margin: 12px 0 0 0;"><a target="_blank"
+      href="https://www.bing.com/maps/?cp=46.267192~-84.496147&sty=r&lvl=15&where1=46.267548,-84.493701&mm_embed=map">View
+      Larger Map</a>&nbsp; |&nbsp; <a target="_blank"
+      href="https://www.bing.com/maps/?cp=46.267192~-84.496147&sty=r&lvl=15&rtp=~pos.46.267548_-84.493701__&mm_embed=dir">Get
+      Directions</a>&nbsp; |&nbsp; <a target="_blank"
+      href="https://www.bing.com/maps/?cp=rqb3yz7yrz55&sty=b&lvl=18&where1=46.267548,-84.493701&mm_embed=be">View Bird's
+      Eye</a></div>
+</div>
