@@ -1,4 +1,23 @@
-<?php include('../../header.html');
+<div id="header"></div>
+
+<style>
+	body {
+		background-color: rgb(0, 0, 0);
+	}
+</style>
+
+<script>
+	// Load external HTML into the #header div
+	fetch('/glass/header.html')
+		.then(response => {
+			if (!response.ok) throw new Error("Failed to load HTML");
+			return response.text();
+		})
+		.then(data => {
+			document.getElementById('header').innerHTML = data;
+		})
+		.catch(err => console.error(err));
+</script>
 
 <script>
 //$pts=array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
@@ -6,26 +25,26 @@ const points = new Array(0,25,22,20,18,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1);
 
 //$mod=array
 const results = new Array(
-	array(20,"Kaysner Racing",	$pts[1],$pts[3],$pts[6],$pts[0]),
-	array("1-B","Team Chippewa",$pts[2],$pts[2],$pts[1],$pts[0]),
-	array(14,"ATF Motorsports",	$pts[3],$pts[4],$pts[4],$pts[0]),
-	array(98,"Wide Open Racing",$pts[4],$pts[8],$pts[5],$pts[0]),
-	array("1-Blk","Team Chippewa",$pts[5],$pts[1],$pts[8],$pts[0]),
-	array(69,"Fast Azz",		$pts[6],$pts[6],$pts[9],$pts[0]),
-	array(86,"MPH Racing",		$pts[7],$pts[5],$pts[2],$pts[0]),
-	array("0H","Outlaw Racing",	$pts[8],$pts[0],$pts[0],$pts[0]),
-	array("05","Holeshot Racing",$pts[9],$pts[9],$pts[3],$pts[0]),
-	array(112,"Bay Mills/Shinault",$pts[10],$pts[0],$pts[0],$pts[0]),
-	array('7','Killackey Racing',$pts[0],$pts[7],$pts[0],$pts[0]),
-	array('22','Eyeball Engineering',$pts[0],$pts[0],$pts[7],$pts[0]),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','',''),
-	array('','','','','','')
+	Array(20,"Kaysner Racing",	points[1],points[3],points[6],points[0]),
+	Array("1-B","Team Chippewa",points[2],points[2],points[1],points[0]),
+	Array(14,"ATF Motorsports",	points[3],points[4],points[4],points[0]),
+	Array(98,"Wide Open Racing",points[4],points[8],points[5],points[0]),
+	Array("1-Blk","Team Chippewa",points[5],points[1],points[8],points[0]),
+	Array(69,"Fast Azz",		points[6],points[6],points[9],points[0]),
+	Array(86,"MPH Racing",		points[7],points[5],points[2],points[0]),
+	Array("0H","Outlaw Racing",	points[8],points[0],points[0],points[0]),
+	Array("05","Holeshot Racing",points[9],points[9],points[3],points[0]),
+	Array(112,"Bay Mills/Shinault",points[10],points[0],points[0],points[0]),
+	Array('7','Killackey Racing',points[0],points[7],points[0],points[0]),
+	Array('22','Eyeball Engineering',points[0],points[0],points[7],points[0]),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','',''),
+	Array('','','','','','')
 );
 
 alert(results);
