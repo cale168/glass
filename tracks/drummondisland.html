@@ -4,18 +4,22 @@
 	}
 </style>
 
-	<script>
-		// Load external HTML into the #header div
-		fetch('/glass/header.html')
-			.then(response => {
-				if (!response.ok) throw new Error("Failed to load HTML");
-				return response.text();
-			})
-			.then(data => {
-				document.getElementById('header').innerHTML = data;
-			})
-			.catch(err => console.error(err));
-	</script>
+<script>
+	// Load external HTML into the #header div
+	fetch('/glass/header.html')
+		.then(response => {
+			if (!response.ok) throw new Error("Failed to load HTML");
+			return response.text();
+		})
+		.then(data => {
+			document.getElementById('header').innerHTML = data;
+		})
+		.catch(err => console.error(err));
+</script>
+
+<header>
+	<div id="header"></div>
+</header>
 
 
 <body>
