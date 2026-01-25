@@ -2,36 +2,13 @@
 ----------------------------------------------------------------------------- 
 Made by Koa Metter (Iamkoa) - Nov 19, 2007
 For use with Vision CSS gallery
------------------------------------------------------------------------------*/
-
-body {
-	background-color:#263f57;
-	text-align: center;
-	font: 11px/1.5em Helvetica, Arial, Verdana, sans-serif;
-	background-image:url('../img/bg/image_add.png');
-	color: #212121;
-	letter-spacing:0px;
-	padding:0;
-	margin:0;
-}
+-----------------------------------------------------------------------------
 
 a.link {
 	background-color:#fff;
 	padding:2px;
 	color:#212121;
 	font-size:12px;
-}
-
-h1 {
-	padding:0;
-	font-size:28px;
-	font-weight:bold;
-	text-align:left;
-	color:#fff;
-	margin:0;
-	margin-top:30px;
-	background-image:url('../img/bg/bg-screen.png');
-	padding:20px;
 }
 
 ul {
@@ -41,13 +18,7 @@ ul {
 	list-style-type:none;
 }
 
-ul li, p {
-	list-style-type:none;
-	margin-top:10px;
-	background-image:url('../img/bg/bg-screen.png');
-	padding:10px;
-	color:#fff;
-}
+
 
 p {
 	width:580px;
@@ -105,15 +76,6 @@ div.controls a {
 	z-index:1;
 }
 
-div.controls a.previous {
-	left: 0;
-	background-image: url('../img/controller/controller_prev.png');
-}
-
-div.controls a.next {
-	right: 0;
-	background-image: url('../img/controller/controller_next.png');
-}
 		
 div.controls a:hover {
 	opacity: 0.40;
@@ -145,58 +107,4 @@ div#content #details {
 	width:600px;
 	z-index:3;
 	text-align:center;
-}
-
-/* corners */
-
-div.corners .left_top {
-	position:absolute;
-	background:url('../img/corners/top_left.png') no-repeat top left;
-	width:7px;
-	height:7px;
-	overflow:hidden;
-	top:10px;
-	left:10px;
-	z-index:20;
-}
-
-div.corners .right_top {
-	position:absolute;
-	background:url('../img/corners/top_right.png') no-repeat top right;
-	width:7px;
-	height:7px;
-	overflow:hidden;
-	top:10px;
-	right:10px;
-	z-index:20;
-}
-
-div.corners .right_bottom {
-	position:absolute;
-	background:url('../img/corners/bottom_right.png') no-repeat top right;
-	width:7px;
-	height:7px;
-	overflow:hidden;
-	bottom:10px;
-	right:10px;
-	z-index:20;
-}
-
-div.corners .left_bottom {
-	position:absolute;
-	background:url('../img/corners/bottom_left.png') no-repeat top right;
-	width:7px;
-	height:7px;
-	overflow:hidden;
-	bottom:10px;
-	left:10px;
-	z-index:20;
-}
-
-div#content {
-	position:relative;
-	background-image:url('../img/bg/bg-screen.png');
-	width:600px;
-	height:400px;
-	padding:10px;
-}
+} */
