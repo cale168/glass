@@ -1,4 +1,4 @@
-<div id="header"></div>
+<html>
 
 <style>
   body {
@@ -6,18 +6,20 @@
   }
 </style>
 
-<script>
-  // Load external HTML into the #header div
-  fetch('/glass/header.html')
-    .then(response => {
-      if (!response.ok) throw new Error("Failed to load HTML");
-      return response.text();
-    })
-    .then(data => {
-      document.getElementById('header').innerHTML = data;
-    })
-    .catch(err => console.error(err));
-</script>
+<head>
+  <script>
+    // Load external HTML into the #header div
+    fetch('/glass/header.html')
+      .then(response => {
+        if (!response.ok) throw new Error("Failed to load HTML");
+        return response.text();
+      })
+      .then(data => {
+        document.getElementById('header').innerHTML = data;
+      })
+      .catch(err => console.error(err));
+  </script>
+</head>
 
 <body>
   <table width="1000" align="center">
@@ -50,3 +52,5 @@
 
   </table>
 </body>
+
+</html>
