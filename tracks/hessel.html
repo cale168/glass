@@ -1,46 +1,52 @@
 <div id="header"></div>
 
 <style>
-body {
+  body {
     background-color: rgb(0, 0, 0);
-}
+  }
 </style>
 
 <script>
-// Load external HTML into the #header div
-fetch('/glass/header.html')
-  .then(response => {
-    if (!response.ok) throw new Error("Failed to load HTML");
-    return response.text();
-  })
-  .then(data => {
-    document.getElementById('header').innerHTML = data;
-  })
-  .catch(err => console.error(err));
+  // Load external HTML into the #header div
+  fetch('/glass/header.html')
+    .then(response => {
+      if (!response.ok) throw new Error("Failed to load HTML");
+      return response.text();
+    })
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    })
+    .catch(err => console.error(err));
 </script>
 
-<span style="font-family: Berlin Sans FB; font-size: large; color:white;">
+<body>
+  <table width="1000" align="center">
 
-<br>
-Feb 18th on the Hessel, MI Bay<br><br>
-Current class plan:<br><br>
-Kitty cat/120<br>
-Junior A<br>
-Junior B<br>
-Powder puff stock <br>
-Jr mod<br>
-45+ stock<br>
-Powder puff mod<br>
-340 twin stock<br>
-45+ mod<br>
-440 twin stock<br>
-Champ (single mod ) 7 laps <br>
-Single stock 50 laps<br>
-Mod single enduro 100 laps<br>
-Mod open 50 laps <br>
-Stock 340 twin stock 100 laps <br>
-Stock 440 twin stock 100 laps <br>
-Late model IFS class 50 laps<br>
-If we have a group with enough sled we can add a class at end
+    <span style="font-family: Berlin Sans FB; font-size: large; color:white;">
 
-</span>
+      <br>
+      Feb 18th on the Hessel, MI Bay<br><br>
+      Current class plan:<br><br>
+      Kitty cat/120<br>
+      Junior A<br>
+      Junior B<br>
+      Powder puff stock <br>
+      Jr mod<br>
+      45+ stock<br>
+      Powder puff mod<br>
+      340 twin stock<br>
+      45+ mod<br>
+      440 twin stock<br>
+      Champ (single mod ) 7 laps <br>
+      Single stock 50 laps<br>
+      Mod single enduro 100 laps<br>
+      Mod open 50 laps <br>
+      Stock 340 twin stock 100 laps <br>
+      Stock 440 twin stock 100 laps <br>
+      Late model IFS class 50 laps<br>
+      If we have a group with enough sled we can add a class at end
+
+    </span>
+
+  </table>
+</body>
